@@ -1,11 +1,47 @@
-# Maven #
-target/
+# ===== Java / Spring Boot =====
+*.class
+*.jar
+*.war
+*.ear
 
-# IDEA #
+# Maven
+target/
+.settings/
+dependency-reduced-pom.xml
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+.project
+.classpath
+
+# Logs
+*.log
+
+# ===== IntelliJ IDEA =====
 .idea/
 *.iml
+*.iws
+*.ipr
+out/
 
-# Eclipse #
-.settings/
-.classpath
-.project
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+
+# ===== Node / Vue (for reference, even though it's in submodule) =====
+node_modules/
+dist/
+.env.local
+.env.*.local
+
+# ===== Git / Submodule Related =====
+# 忽略子模块本地修改（可选）
+mall-admin-web/.idea/
+mall-admin-web/node_modules/
+mall-admin-web/dist/
+
+# ===== Docker / Kubernetes (可选) =====
+*.env
+*.crt
+*.key
