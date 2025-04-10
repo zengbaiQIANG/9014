@@ -1,0 +1,3 @@
+[submodule "mall-admin-web"]
+	path = mall-admin-web
+	url = git@github-uwo:zengbaiQIANG/mall-admin-web.git
